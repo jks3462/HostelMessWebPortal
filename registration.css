@@ -1,0 +1,57 @@
+
+body{
+	background: url(registration_background.jpg) repeat;
+}
+#Registeration{
+	font:bold 2.4em cursive;
+	color:#f9c68b;
+	text-align:center;
+}
+.button{
+	width:10%;
+	margin:5% 0% 0% 30%;
+	padding:0.1% 0.1%;
+	font:bold 1em sans-serif;
+    background: #f9c68b;
+	border-radius:0.7em;
+    color: #222;
+	text-align:center;
+}
+.button:hover{
+	 background-color: #51a351;
+}
+.button:active{border:4px solid #dedaab;background:black;color:#ccc;}
+.Form_details{
+	color:#fee5e5;
+    font: 1.6em Arial,sans-serif;
+	margin:0% 10%;
+	line-height:0.7em;
+}
+.Form_details label {
+    display: block;
+    margin:2%;
+}
+.Form_details label span {
+    color: #fee5e5;
+    float: left;
+    width: 35%;
+    text-align: right;
+    padding-right: 5%;
+    margin-top: 2%;
+    font-weight: bold;
+}
+.Form_details input[type="text"], .Form_details input[type="email"],.Form_details input[type="number"]{
+    color: #2d2424;
+    width: 30%;
+    padding: 0px 0px 0px 2%;
+    border: 1% inline #5E5E5E;
+    background: #e8dd92;
+    font-size: 80%;
+    height: 30px;
+	margin:1%;
+}
+.displaced{
+	position:relative;
+	top:21px;
+}
+
